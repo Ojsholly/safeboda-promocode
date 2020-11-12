@@ -16,6 +16,7 @@
         "laravel/framework": "^8.12",
         "laravel/sanctum": "^2.8",
         "laravel/tinker": "^2.5",
+        "mvdnbrk/laravel-model-expires": "^1.8",
         "spatie/laravel-http-logger": "^1.6",
         "unicodeveloper/laravel-password": "^1.0"
     },

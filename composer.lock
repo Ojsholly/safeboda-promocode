@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b9242356670b89b2e984f185b7c6e29d",
+    "content-hash": "909dd8802ff5d8617c1a79687c96069b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1573,6 +1573,78 @@
                 }
             ],
             "time": "2020-07-23T08:41:23+00:00"
+        },
+        {
+            "name": "mvdnbrk/laravel-model-expires",
+            "version": "v1.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mvdnbrk/laravel-model-expires.git",
+                "reference": "96e7c8501b655f472f8bdd7bdaac10cc0030f4e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mvdnbrk/laravel-model-expires/zipball/96e7c8501b655f472f8bdd7bdaac10cc0030f4e4",
+                "reference": "96e7c8501b655f472f8bdd7bdaac10cc0030f4e4",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^6.0 || ^7.0 || ^8.0",
+                "illuminate/support": "^6.0 || ^7.0 || ^8.0",
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "doctrine/dbal": "^2.5",
+                "orchestra/testbench": "^4.0 || ^5.0 || ^6.0",
+                "phpunit/phpunit": "^8.0 || ^9.4"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Mvdnbrk\\EloquentExpirable\\ExpirableServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Mvdnbrk\\EloquentExpirable\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark van den Broek",
+                    "email": "mvdnbrk@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A package to assign expiration dates to Eloquent models",
+            "homepage": "https://github.com/mvdnbrk/laravel-model-expires",
+            "keywords": [
+                "Expires",
+                "date",
+                "eloquent",
+                "expirable",
+                "expiration",
+                "expire",
+                "laravel",
+                "model"
+            ],
+            "support": {
+                "issues": "https://github.com/mvdnbrk/laravel-model-expires/issues",
+                "source": "https://github.com/mvdnbrk/laravel-model-expires/tree/v1.8.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/mvdnbrk",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-11-11T21:13:38+00:00"
         },
         {
             "name": "nesbot/carbon",
