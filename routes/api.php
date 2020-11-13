@@ -41,14 +41,17 @@ Route::prefix('v1')->namespace('v1')->middleware(HttpLogger::class)->group(funct
 
         Route::post('/update/{id}', [PromoCodeController::class, 'update']);
 
-        Route::post('/deactivate/{id}', [PromoCodeController::class, 'deactivate']);
-
         Route::post('/delete/{id}', [PromoCodeController::class, 'destroy']);
 
         Route::get('/active', [PromoCodeController::class, 'active']);
 
         Route::get('/expired', [PromoCodeController::class, 'expired']);
 
+        Route::post('/deactivate/{id}', [PromoCodeController::class, 'deactivate']);
+
         Route::get('/deactivated', [PromoCodeController::class, 'deactivated']);
     });
+
+
+    Route::post('promocodes/verify/{code}', [PromoCodeController::class, 'show']);
 });

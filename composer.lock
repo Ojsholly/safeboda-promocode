@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "909dd8802ff5d8617c1a79687c96069b",
+    "content-hash": "98d7c712743632c3c666fe7d8905f7a8",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -495,6 +495,55 @@
                 "source": "https://github.com/egulias/EmailValidator/tree/2.1.23"
             },
             "time": "2020-10-31T20:37:35+00:00"
+        },
+        {
+            "name": "emcconville/google-map-polyline-encoding-tool",
+            "version": "v1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/emcconville/google-map-polyline-encoding-tool.git",
+                "reference": "dbf3816936620b88f0fc4000fddd94b5ce13eadb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/emcconville/google-map-polyline-encoding-tool/zipball/dbf3816936620b88f0fc4000fddd94b5ce13eadb",
+                "reference": "dbf3816936620b88f0fc4000fddd94b5ce13eadb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.1.*",
+                "satooshi/php-coveralls": "dev-master",
+                "squizlabs/php_codesniffer": "2.0.0a2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Polyline.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU"
+            ],
+            "authors": [
+                {
+                    "name": "Eric McConville",
+                    "email": "emcconville@emcconville.com"
+                }
+            ],
+            "description": "A simple class to handle polyline-encoding for Google Maps",
+            "keywords": [
+                "google",
+                "maps"
+            ],
+            "support": {
+                "issues": "https://github.com/emcconville/google-map-polyline-encoding-tool/issues",
+                "source": "https://github.com/emcconville/google-map-polyline-encoding-tool/tree/v1.3"
+            },
+            "time": "2016-04-05T01:18:39+00:00"
         },
         {
             "name": "fideloper/proxy",
